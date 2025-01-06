@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+ 
+</head>
+<body>
+    <header class="bg-soft-lavender py-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h1 class="mb-4">ABOUT ME</h1>
+            <img src="C:\Users\priya\Desktop\DHARSH PORTFOLIO\dharsh.JPG" alt="Profile Image" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+            <p>WELCOME TO MY PORTFOLIO!</p>
+            <p>I'm PRIYADHARSHINI. I graduated in 2018 with a Bachelor of Technology degree in Information Technology from Karpagam College of Engineering. Recently, I completed a full-stack Java development course, and I am eager to showcase my skills through innovative projects."</p>
+        </div>
+    </section>
+    <section id="projects" class="py-5">
+          
+        <div class="container">
+            <h2 class="text-center mb-5">PROJECTS</h2>
+            <h4 style="font-style:italic;">PROJECT 1-MYNTRA SHOPPING WEBSITE</h4><br>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\priya\Desktop\DHARSH PORTFOLIO\Screenshots\Screenshot 2024-12-31 123536.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Page One</h5>
+                            <p class="card-text">MYNTRA shopping website "HOME" page where it displays the login page, cart details, product details, and offer details.</p>
+                            <a href="file:///C:/Users/priya/Desktop/DHARSH%20PROJECT%20(1)/DHARSH%20PROJECT/page11.html" class="btn btn-custom">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\priya\Desktop\DHARSH PORTFOLIO\Screenshots\Screenshot 2024-12-31 123812.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Page Two</h5>
+                            <p class="card-text">Here you can check and add the products in your cart.</p>
+                            <a href="file:///C:/Users/priya/Desktop/DHARSH%20PROJECT%20(1)/DHARSH%20PROJECT/page2.html" class="btn btn-custom">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="C:\Users\priya\Desktop\DHARSH PORTFOLIO\Screenshots\Screenshot 2024-12-31 123838.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Page Three</h5>
+                            <p class="card-text">You can move to the next page, previous page, and home page using the hover button.</p>
+                            <a href="file:///C:/Users/priya/Desktop/DHARSH%20PROJECT%20(1)/DHARSH%20PROJECT/page5.html" class="btn btn-custom">View Project</a>
+                        </div>
+                    </div>
+                </div>
+    
+              
+   
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">CONTACT ME</h2>
+            <p>Feel free to reach out to me for collaborations or inquiries.</p>
+
+            <!-- Contact Form -->
+            <form action="/submit-form" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+            <hr>
+
+            <!-- Contact Information Section with Background Color -->
+            <div class="contact-details">
+                <h4>Our Contact Information</h4>
+                <ul class="list-unstyled">
+                    <li><strong>Phone:</strong>+91 987654321</li>
+                    <li><strong>Email:</strong> contact@example.com</li>
+                    <li><strong>Address:</strong> 123 CROSSCUTROAD 1ST STREET, COIMBATORE, TAMILNADU</li>
+                    <li><strong>Fax:</strong> +91 98 765 4321</li>
+                </ul>
+
+                <hr>
+
+                <!-- Social Media Links -->
+                <h4>Follow Us</h4>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://facebook.com" target="_blank" class="btn btn-outline-primary">Facebook</a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com" target="_blank" class="btn btn-outline-primary">Twitter</a></li>
+                    <li class="list-inline-item"><a href="https://linkedin.com" target="_blank" class="btn btn-outline-primary">LinkedIn</a></li>
+                </ul>
+
+                <hr>
+
+                <!-- Map -->
+                <h4>Our Location</h4>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.682667121188!2d-77.0352365846489!3d38.89573697957321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b76a256a5651%3A0xd56a32e301b1d15!2s1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC%2020052!5e0!3m2!1sen!2sus!4v1614824933150!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+               <hr>
+
+                <!-- Privacy Statement -->
+                <h5>Privacy Notice</h5>
+                <p>Your data will be kept secure and will not be shared with third parties. We only use your information to respond to your queries.</p>
+
+                <a href="mailto:youremail@example.com" class="btn btn-custom">Email Me</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 text-center">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
