@@ -1,2 +1,2 @@
 # dharshportfolio
-Its an portfolio project using Bootstrap and CSS.
+DHARSH PORTFOLIO PROJECT USING BOOTSTRAP AND CSS.
